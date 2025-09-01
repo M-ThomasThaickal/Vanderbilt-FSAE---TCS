@@ -24,5 +24,4 @@ fsae-tcs/
 │── docs/
 │ ├── research.md # Notes from papers, videos, rulebook
 │ ├── ecu.md # PE3 8400 details, configs, limitations
-│── src/ # Code 
 │── data/ # Log files, CSVs, test results
