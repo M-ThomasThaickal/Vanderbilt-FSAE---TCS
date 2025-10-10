@@ -14,7 +14,8 @@ The documentation here is intended for:
 ## Roadmap
 - **Phase 1 — Research & Rules**  
   Gather background on traction control, confirm legality in FSAE rules, and study ECU documentation.
-
+- **Phase 2 — Arduino Setup, Determining Pi Feasability, Wheel Speed Sensing** 
+  Determine if Pi is needed, write code for wheel speed sensing
 ---
 
 ## Repository Structure
@@ -24,4 +25,4 @@ fsae-tcs/
 │── docs/
 │ ├── research.md # Notes from papers, videos, rulebook
 │ ├── ecu.md # PE3 8400 details, configs, limitations
-│── data/ # Log files, CSVs, test results
+│── data/ # Log files, CSVs, test results, code
