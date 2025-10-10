@@ -9,6 +9,13 @@ The documentation here is intended for:
 - Future FSAE members inheriting this project
 - Technical reference for control algorithms and software
 
+## Why This Project Matters
+Traction control is a vehicle dynamics control system that prevents wheel slip during acceleration, improving lap times and vehicle stability. This project combines:
+- **Embedded systems** (sensor integration, real-time processing)
+- **Control theory** (slip detection and intervention algorithms)  
+- **Hardware-software integration** (ECU communication protocols)
+- **Real-world validation** (testing and tuning on actual race car)
+
 ---
 
 ## Roadmap
