@@ -7,7 +7,7 @@ The current ECU, **PE3 8400**, does include built-in TCS support, so the goal is
 The documentation here is intended for:
 - Current team members working on the car
 - Future FSAE members inheriting this project
-- Technical reference for control algorithms and software
+- Documenting progress
 
 ## Why This Project Matters
 Traction control is a vehicle dynamics control system that prevents wheel slip during acceleration, improving lap times and vehicle stability. This project combines:
@@ -19,10 +19,22 @@ Traction control is a vehicle dynamics control system that prevents wheel slip d
 ---
 
 ## Roadmap
-- **Phase 1 — Research & Rules**  
-  Gather background on traction control, confirm legality in FSAE rules, and study ECU documentation.
-- **Phase 2 — Arduino Setup, Determining Pi Feasability, Wheel Speed Sensing** 
+- **Completed**  
+  Gather background on traction control, confirm legality in FSAE rules, and study ECU documentation. 
   Determine if Pi is needed, write code for wheel speed sensing
+  Arduino prototype with hall effect sensors
+  Validation with manual lathe
+  Migration to Raspberry Pi
+  4-channel independent wheel speed monitoring
+  Wiring
+- **In Progess**
+  Physical mounting and installation
+  ECU integration
+  System tuning/testing
+- **For future**
+  Live-testing
+  Data logging/live analysis
+  TCS tuning
 ---
 
 ## Repository Structure
@@ -32,4 +44,5 @@ fsae-tcs/
 │── docs/
 │ ├── research.md # Notes from papers, videos, rulebook
 │ ├── ecu.md # PE3 8400 details, configs, limitations
-│── data/ # Log files, CSVs, test results, code
+├── src/
+└── data/ # Log files, CSVs, test results, code
