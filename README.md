@@ -38,7 +38,7 @@ Traction control is a vehicle dynamics control system that prevents wheel slip d
 ---
 
 ## Repository Structure
-
+```
 fsae-tcs/
 │── README.md # Project overview
 │── docs/
@@ -46,3 +46,4 @@ fsae-tcs/
 │ ├── ecu.md # PE3 8400 details, configs, limitations
 ├── src/
 └── data/ # Log files, CSVs, test results, code
+```
